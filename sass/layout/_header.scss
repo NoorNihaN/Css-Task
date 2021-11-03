@@ -1,0 +1,44 @@
+.heading
+{
+    height:6rem;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &_logo
+    {
+        padding:1rem;
+       
+    }
+    &_nav
+    {
+        .list_items{
+          font-size: 1.5rem;
+          
+        .list_item{
+               list-style: none;
+               display:inline-block;
+           vertical-align: top;
+           width: 50%;
+           }
+
+        }
+    }
+}
+.signup
+{
+    vertical-align: middle;
+    &_link{
+        color:rgb(112, 33, 33);
+        font-weight: bold;
+        text-decoration: none;
+
+
+    }
+    &_icon{
+        width:2rem;
+        height:2rem;
+        vertical-align: middle;
+    }
+}
